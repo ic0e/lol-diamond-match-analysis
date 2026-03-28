@@ -83,15 +83,14 @@ The logistic regression probability curve matched the binned bar chart from EDA 
 **confirmed.**
 
 Logistic Regression achieved the highest AUC (0.806) of all three models. Random Forest matched it without improvement. The neural network underperformed (AUC 0.786) due to insufficient data for its complexity. The performance ceiling of ~72% accuracy reflects irreducible variance from game factors not captured in the first 10 minutes.
-
-<img width="889" height="690" alt="image" src="https://github.com/user-attachments/assets/04ba18a6-ce6f-467b-adb8-1ec8ac7776a5" />
-
-
 | model | accuracy | AUC |
 |---|---|---|
 | Logistic Regression | 71.71% | 0.806 |
 | Random Forest | 71.86% | 0.804 |
 | Neural Network (PyTorch) | ~71.8% | 0.786 |
+
+
+<img width="889" height="690" alt="image" src="https://github.com/user-attachments/assets/04ba18a6-ce6f-467b-adb8-1ec8ac7776a5" />
 
 ---
 
@@ -99,18 +98,14 @@ Logistic Regression achieved the highest AUC (0.806) of all three models. Random
 
 Gold, CS, and kill differentials were engineered as new features (blue minus red) to capture team-level advantage rather than raw totals. several raw columns are highly correlated — gold, CS, and experience move together, which informed feature selection and helps explain why simpler models perform competitively.
 
-<img width="1483" height="1190" alt="image" src="https://github.com/user-attachments/assets/d49b8258-ba31-40e3-be29-5e7dc5c37947" />
-
-
 ---
 
 ## Model details
 
-### logistic regression
-a linear baseline. fast to train, interpretable, and the strongest overall performer given the structure of the data.
+### Logistic regression
+A linear baseline. fast to train, interpretable, and the strongest overall performer given the structure of the data.
 
 <img width="742" height="590" alt="image" src="https://github.com/user-attachments/assets/51e6309f-4778-42cd-9d24-4a7d8dc7f92e" />
-
 
 ### Random Forest
 Captures non-linear interactions between features without much tuning. matched logistic regression without exceeding it, which supports hypothesis 5.
