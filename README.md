@@ -43,6 +43,14 @@ This is a learning project. The goal was to go through the full pipeline and tes
 
 ---
 
+## Exploratory data analysis
+
+Gold, CS, and kill differentials were engineered as new features (blue minus red) to capture team-level advantage rather than raw totals. several raw columns are highly correlated -- gold, CS, and experience move together, which informed feature selection and helps explain why simpler models perform competitively. Data was cleaned and prepared for ML and analysis.
+
+<img width="1483" height="1190" alt="image" src="https://github.com/user-attachments/assets/d49b8258-ba31-40e3-be29-5e7dc5c37947" />
+
+---
+
 ## Hypotheses and Findings
 
 ### Hypothesis 1 — Gold difference is the strongest predictor of outcome
@@ -82,15 +90,6 @@ CS diff is more consistent as an income source, but kill differential ranked hig
 **confirmed.**
 
 The logistic regression probability curve matched the binned bar chart from EDA exactly. Win probability is near 50% at even gold, accelerates sharply through the ±2000 range, and approaches 90%+ at large leads.
-
----
-
-## Exploratory data analysis
-
-Gold, CS, and kill differentials were engineered as new features (blue minus red) to capture team-level advantage rather than raw totals. several raw columns are highly correlated — gold, CS, and experience move together, which informed feature selection and helps explain why simpler models perform competitively.
-
-<img width="1483" height="1190" alt="image" src="https://github.com/user-attachments/assets/d49b8258-ba31-40e3-be29-5e7dc5c37947" />
-
 
 ---
 
