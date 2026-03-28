@@ -1,4 +1,10 @@
 # League of Legends - Win Prediction from Early Game Data
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
 Predicting match outcomes from the first 10 minutes of a League of Legends game using structured match data and three different ML approaches. Built as a learning project to go through the full data science pipeline hands-on, from raw data to model comparison.
 
