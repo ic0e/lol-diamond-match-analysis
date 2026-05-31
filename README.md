@@ -20,7 +20,7 @@ Dataset is already downloaded inside the repository.
 ## What this project covers
 
 - exploratory data analysis and feature engineering on match statistics
-- training and comparing three models: Logistic Regression, Random Forest, and a PyTorch neural network
+- training and comparing three models: Logistic Regression, Random Forest, and a PyTorch neural network (achieved ~71% accuracy)
 - five concrete hypotheses tested against the data and evaluated after modeling
 
 Three models were trained and used intentionally as a learning exercise to understand how they differ in behavior, not just in final accuracy.
